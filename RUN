@@ -1,0 +1,93 @@
+#!/bin/bash
+
+# Directory structure setup
+INPUT_DIR="input_papers"
+OUTPUT_DIR="output_audio"
+TEMP_DIR="temp_processing"
+
+# Create required directories if they don't exist
+mkdir -p "$INPUT_DIR"
+mkdir -p "$OUTPUT_DIR"
+mkdir -p "$TEMP_DIR"
+
+# Function to clean temporary files
+cleanup_temp() {
+    rm -rf "$TEMP_DIR"/*
+}
+
+# Function for GUI phase - extracting figures
+extract_figures() {
+    local input_pdf="$1"
+    local filename=$(basename "$input_pdf" .pdf)
+    local temp_work_dir="$TEMP_DIR/$filename"
+    
+    echo "Extracting figures from: $filename"
+    
+    # Create paper-specific working directory
+    mkdir -p "$temp_work_dir/figs"
+    
+    # Copy PDF to temporary working directory
+    cp "$input_pdf" "$temp_work_dir/figs/paper.pdf"
+    
+    # Run GUI for figure extraction
+    python scripts/gui.py "$temp_work_dir/figs/paper.pdf" "$temp_work_dir/figs/" || { echo "Error extracting figures"; return 1; }
+}
+
+# Function for automated processing
+process_paper() {
+    local input_pdf="$1"
+    local filename=$(basename "$input_pdf" .pdf)
+    local temp_work_dir="$TEMP_DIR/$filename"
+    
+    # Change to temp directory for processing
+    cd "$temp_work_dir" || exit 1
+    
+    local paper_name=$(python ../../scripts/get_name.py figs/paper.pdf)
+    echo "Processing: $paper_name"
+    # Run rest of processing pipeline (no GUI interaction needed)
+    ../../scripts/descon.sh figs/paper.pdf || { echo "Error in figure description"; return 1; }
+    python ../../scripts/body.py figs/paper.pdf || { echo "Error cleaning body"; return 1; }
+    python ../../scripts/intersperse.py figs/paper.txt figs/ figs/chunks.txt || { echo "Error interspercing"; return 1; }
+    python ../../scripts/script.py figs/chunks.txt || { echo "Error generating audio"; return 1; }
+    ../../scripts/stitch.sh "$paper_name" || { echo "Error stitching audio"; return 1; }
+    
+    # Return to original directory
+    cd - > /dev/null
+    echo "Completed processing: $filename"
+}
+
+# Phase 1: GUI interactions
+echo "Phase 1: Figure Extraction (GUI Phase)"
+for pdf in "$INPUT_DIR"/*.pdf; do
+    # Skip if no PDFs found
+    [[ -e "$pdf" ]] || { echo "No PDF files found in input directory"; exit 1; }
+    
+    # Extract figures with GUI
+    extract_figures "$pdf"
+    
+    # Check for errors
+    if [ $? -ne 0 ]; then
+        echo "Error extracting figures from $pdf"
+        exit 1
+    fi
+done
+
+echo "All figures extracted. Starting automated processing..."
+
+# Phase 2: Automated processing
+echo "Phase 2: Automated Processing"
+for pdf in "$INPUT_DIR"/*.pdf; do
+    # Process each paper
+    process_paper "$pdf"
+    
+    # Check for errors
+    if [ $? -ne 0 ]; then
+        echo "Error processing $pdf"
+        continue
+    fi
+done
+
+# Clean up temporary files
+cleanup_temp
+
+echo "All papers processed successfully"

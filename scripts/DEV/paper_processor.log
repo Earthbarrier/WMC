@@ -1,0 +1,237 @@
+2025-01-02 14:56:57,684 - __main__ - INFO - [body4.py:287] - Reading PDF...
+2025-01-02 14:56:57,700 - __main__ - ERROR - [body4.py:124] - Error processing page 3: not enough values to unpack (expected 1, got 0)
+2025-01-02 14:56:57,707 - __main__ - ERROR - [body4.py:124] - Error processing page 2: not enough values to unpack (expected 1, got 0)
+2025-01-02 14:56:57,711 - __main__ - ERROR - [body4.py:124] - Error processing page 5: not enough values to unpack (expected 1, got 0)
+2025-01-02 14:56:57,720 - __main__ - ERROR - [body4.py:124] - Error processing page 1: not enough values to unpack (expected 1, got 0)
+2025-01-02 14:56:57,726 - __main__ - ERROR - [body4.py:124] - Error processing page 11: not enough values to unpack (expected 1, got 0)
+2025-01-02 14:56:58,546 - __main__ - WARNING - [body4.py:77] - Document may not be a standard academic paper format
+2025-01-02 14:58:23,603 - __main__ - INFO - [body4.py:280] - Reading PDF...
+2025-01-02 14:58:23,614 - __main__ - ERROR - [body4.py:124] - Error processing page 5: 'N'
+2025-01-02 14:58:23,640 - __main__ - ERROR - [body4.py:124] - Error processing page 3: 'N'
+2025-01-02 14:58:23,644 - __main__ - ERROR - [body4.py:124] - Error processing page 4: 'N'
+2025-01-02 14:58:23,646 - __main__ - ERROR - [body4.py:124] - Error processing page 11: int() argument must be a string, a bytes-like object or a real number, not 'PSKeyword'
+2025-01-02 14:58:23,650 - __main__ - ERROR - [body4.py:124] - Error processing page 10: 'N'
+2025-01-02 14:58:23,650 - __main__ - ERROR - [body4.py:124] - Error processing page 2: 'N'
+2025-01-02 14:58:23,650 - __main__ - ERROR - [body4.py:124] - Error processing page 1: 'N'
+2025-01-02 14:58:23,651 - __main__ - ERROR - [body4.py:124] - Error processing page 6: 'N'
+2025-01-02 14:58:23,651 - __main__ - ERROR - [body4.py:124] - Error processing page 7: 'N'
+2025-01-02 14:58:23,651 - __main__ - ERROR - [body4.py:124] - Error processing page 9: 'N'
+2025-01-02 14:58:23,652 - __main__ - ERROR - [body4.py:124] - Error processing page 8: 'N'
+2025-01-02 14:58:27,660 - __main__ - ERROR - [body4.py:124] - Error processing page 7: 'N'
+2025-01-02 14:58:27,661 - __main__ - ERROR - [body4.py:124] - Error processing page 6: 'N'
+2025-01-02 14:58:27,661 - __main__ - ERROR - [body4.py:124] - Error processing page 10: 'N'
+2025-01-02 14:58:27,678 - __main__ - ERROR - [body4.py:124] - Error processing page 11: 'N'
+2025-01-02 14:58:27,682 - __main__ - ERROR - [body4.py:124] - Error processing page 9: 'N'
+2025-01-02 14:58:27,694 - __main__ - ERROR - [body4.py:124] - Error processing page 1: 'N'
+2025-01-02 14:58:27,695 - __main__ - ERROR - [body4.py:124] - Error processing page 5: 'N'
+2025-01-02 14:58:27,695 - __main__ - ERROR - [body4.py:124] - Error processing page 2: 'N'
+2025-01-02 14:58:27,695 - __main__ - ERROR - [body4.py:124] - Error processing page 4: 'N'
+2025-01-02 14:58:27,695 - __main__ - ERROR - [body4.py:124] - Error processing page 8: 'N'
+2025-01-02 14:58:27,695 - __main__ - ERROR - [body4.py:124] - Error processing page 3: 'N'
+2025-01-02 14:58:31,708 - __main__ - ERROR - [body4.py:124] - Error processing page 8: 'N'
+2025-01-02 14:58:31,708 - __main__ - ERROR - [body4.py:124] - Error processing page 11: 'N'
+2025-01-02 14:58:31,709 - __main__ - ERROR - [body4.py:124] - Error processing page 3: 'N'
+2025-01-02 14:58:31,725 - __main__ - ERROR - [body4.py:124] - Error processing page 4: not enough values to unpack (expected 1, got 0)
+2025-01-02 14:58:31,727 - __main__ - ERROR - [body4.py:124] - Error processing page 2: int() argument must be a string, a bytes-like object or a real number, not 'PSKeyword'
+2025-01-02 14:58:31,737 - __main__ - ERROR - [body4.py:124] - Error processing page 6: 'N'
+2025-01-02 14:58:31,737 - __main__ - ERROR - [body4.py:124] - Error processing page 5: 'N'
+2025-01-02 14:58:31,737 - __main__ - ERROR - [body4.py:124] - Error processing page 7: int() argument must be a string, a bytes-like object or a real number, not 'PSKeyword'
+2025-01-02 14:58:31,869 - __main__ - ERROR - [body4.py:124] - Error processing page 9: 'N'
+2025-01-02 14:58:31,870 - __main__ - ERROR - [body4.py:124] - Error processing page 10: 'N'
+2025-01-02 14:58:31,870 - __main__ - ERROR - [body4.py:124] - Error processing page 1: 'N'
+2025-01-02 14:58:31,870 - __main__ - ERROR - [body4.py:298] - Critical error: RetryError[<Future at 0x7703d729aad0 state=finished raised PDFExtractionError>]
+2025-01-02 15:00:25,421 - __main__ - INFO - [body4.py:296] - Reading PDF...
+2025-01-02 15:00:25,434 - __main__ - ERROR - [body4.py:140] - Error processing page 5: 'N'
+2025-01-02 15:00:25,436 - __main__ - ERROR - [body4.py:140] - Error processing page 2: not enough values to unpack (expected 1, got 0)
+2025-01-02 15:00:25,472 - __main__ - ERROR - [body4.py:140] - Error processing page 10: 'N'
+2025-01-02 15:00:25,472 - __main__ - ERROR - [body4.py:140] - Error processing page 9: 'N'
+2025-01-02 15:00:25,472 - __main__ - ERROR - [body4.py:140] - Error processing page 1: 'N'
+2025-01-02 15:00:25,472 - __main__ - ERROR - [body4.py:140] - Error processing page 6: 'N'
+2025-01-02 15:00:25,472 - __main__ - ERROR - [body4.py:140] - Error processing page 11: 'N'
+2025-01-02 15:00:25,473 - __main__ - ERROR - [body4.py:140] - Error processing page 3: 'N'
+2025-01-02 15:00:25,474 - __main__ - ERROR - [body4.py:140] - Error processing page 8: 'N'
+2025-01-02 15:00:25,474 - __main__ - ERROR - [body4.py:140] - Error processing page 4: 'N'
+2025-01-02 15:00:25,474 - __main__ - ERROR - [body4.py:140] - Error processing page 7: 'N'
+2025-01-02 15:00:29,487 - __main__ - ERROR - [body4.py:140] - Error processing page 5: 'N'
+2025-01-02 15:00:29,488 - __main__ - ERROR - [body4.py:140] - Error processing page 2: 'N'
+2025-01-02 15:00:29,490 - __main__ - ERROR - [body4.py:140] - Error processing page 9: 'N'
+2025-01-02 15:00:29,492 - __main__ - ERROR - [body4.py:140] - Error processing page 1: 'N'
+2025-01-02 15:00:29,495 - __main__ - ERROR - [body4.py:140] - Error processing page 7: 'N'
+2025-01-02 15:00:29,495 - __main__ - ERROR - [body4.py:140] - Error processing page 3: 'N'
+2025-01-02 15:00:29,495 - __main__ - ERROR - [body4.py:140] - Error processing page 8: 'N'
+2025-01-02 15:00:29,495 - __main__ - ERROR - [body4.py:140] - Error processing page 4: 'N'
+2025-01-02 15:00:29,511 - __main__ - ERROR - [body4.py:140] - Error processing page 6: 'N'
+2025-01-02 15:00:29,511 - __main__ - ERROR - [body4.py:140] - Error processing page 11: 'N'
+2025-01-02 15:00:29,674 - __main__ - ERROR - [body4.py:140] - Error processing page 10: 'N'
+2025-01-02 15:00:33,683 - __main__ - ERROR - [body4.py:140] - Error processing page 1: 'N'
+2025-01-02 15:00:33,683 - __main__ - ERROR - [body4.py:140] - Error processing page 4: 'N'
+2025-01-02 15:00:33,684 - __main__ - ERROR - [body4.py:140] - Error processing page 2: 'N'
+2025-01-02 15:00:33,685 - __main__ - ERROR - [body4.py:140] - Error processing page 5: 'N'
+2025-01-02 15:00:33,685 - __main__ - ERROR - [body4.py:140] - Error processing page 6: 'N'
+2025-01-02 15:00:33,686 - __main__ - ERROR - [body4.py:140] - Error processing page 7: 'N'
+2025-01-02 15:00:33,686 - __main__ - ERROR - [body4.py:140] - Error processing page 11: 'N'
+2025-01-02 15:00:33,701 - __main__ - ERROR - [body4.py:140] - Error processing page 10: 'N'
+2025-01-02 15:00:33,701 - __main__ - ERROR - [body4.py:140] - Error processing page 3: 'N'
+2025-01-02 15:00:33,701 - __main__ - ERROR - [body4.py:140] - Error processing page 9: 'N'
+2025-01-02 15:00:33,712 - __main__ - ERROR - [body4.py:140] - Error processing page 8: 'N'
+2025-01-02 15:00:33,713 - __main__ - ERROR - [body4.py:314] - Critical error: RetryError[<Future at 0x7508508bae90 state=finished raised PDFExtractionError>]
+2025-01-02 15:02:14,758 - __main__ - INFO - [body4.py:311] - Reading PDF...
+2025-01-02 15:02:15,706 - __main__ - INFO - [body4.py:320] - Cleaning and formatting text for audio...
+2025-01-02 15:02:15,706 - __main__ - INFO - [body4.py:272] - Processing 23 sections...
+2025-01-02 15:02:15,709 - __main__ - INFO - [body4.py:223] - Section 3 too small, skipping
+2025-01-02 15:02:15,892 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 429 Too Many Requests"
+2025-01-02 15:02:15,892 - anthropic._base_client - INFO - [_base_client.py:1088] - Retrying request to /v1/messages in 60.000000 seconds
+2025-01-02 15:02:15,898 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 429 Too Many Requests"
+2025-01-02 15:02:15,898 - anthropic._base_client - INFO - [_base_client.py:1088] - Retrying request to /v1/messages in 60.000000 seconds
+2025-01-02 15:02:15,899 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 429 Too Many Requests"
+2025-01-02 15:02:15,899 - anthropic._base_client - INFO - [_base_client.py:1088] - Retrying request to /v1/messages in 60.000000 seconds
+2025-01-02 15:02:15,901 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 429 Too Many Requests"
+2025-01-02 15:02:15,902 - anthropic._base_client - INFO - [_base_client.py:1088] - Retrying request to /v1/messages in 60.000000 seconds
+2025-01-02 15:02:15,911 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 429 Too Many Requests"
+2025-01-02 15:02:15,911 - anthropic._base_client - INFO - [_base_client.py:1088] - Retrying request to /v1/messages in 60.000000 seconds
+2025-01-02 15:02:15,933 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 429 Too Many Requests"
+2025-01-02 15:02:15,933 - anthropic._base_client - INFO - [_base_client.py:1088] - Retrying request to /v1/messages in 60.000000 seconds
+2025-01-02 15:02:15,959 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 429 Too Many Requests"
+2025-01-02 15:02:15,959 - anthropic._base_client - INFO - [_base_client.py:1088] - Retrying request to /v1/messages in 60.000000 seconds
+2025-01-02 15:02:15,961 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 429 Too Many Requests"
+2025-01-02 15:02:15,961 - anthropic._base_client - INFO - [_base_client.py:1088] - Retrying request to /v1/messages in 60.000000 seconds
+2025-01-02 15:02:15,963 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 429 Too Many Requests"
+2025-01-02 15:02:15,964 - anthropic._base_client - INFO - [_base_client.py:1088] - Retrying request to /v1/messages in 60.000000 seconds
+2025-01-02 15:02:15,966 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 429 Too Many Requests"
+2025-01-02 15:02:15,966 - anthropic._base_client - INFO - [_base_client.py:1088] - Retrying request to /v1/messages in 60.000000 seconds
+2025-01-02 15:02:15,970 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 429 Too Many Requests"
+2025-01-02 15:02:15,971 - anthropic._base_client - INFO - [_base_client.py:1088] - Retrying request to /v1/messages in 60.000000 seconds
+2025-01-02 15:02:15,977 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 429 Too Many Requests"
+2025-01-02 15:02:15,977 - anthropic._base_client - INFO - [_base_client.py:1088] - Retrying request to /v1/messages in 60.000000 seconds
+2025-01-02 15:02:15,989 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 429 Too Many Requests"
+2025-01-02 15:02:15,989 - anthropic._base_client - INFO - [_base_client.py:1088] - Retrying request to /v1/messages in 60.000000 seconds
+2025-01-02 15:02:15,999 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 429 Too Many Requests"
+2025-01-02 15:02:16,000 - anthropic._base_client - INFO - [_base_client.py:1088] - Retrying request to /v1/messages in 60.000000 seconds
+2025-01-02 15:02:16,001 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 429 Too Many Requests"
+2025-01-02 15:02:16,001 - anthropic._base_client - INFO - [_base_client.py:1088] - Retrying request to /v1/messages in 60.000000 seconds
+2025-01-02 15:02:16,028 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 429 Too Many Requests"
+2025-01-02 15:02:16,028 - anthropic._base_client - INFO - [_base_client.py:1088] - Retrying request to /v1/messages in 60.000000 seconds
+2025-01-02 15:02:16,032 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 429 Too Many Requests"
+2025-01-02 15:02:16,033 - anthropic._base_client - INFO - [_base_client.py:1088] - Retrying request to /v1/messages in 60.000000 seconds
+2025-01-02 15:02:16,034 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 429 Too Many Requests"
+2025-01-02 15:02:16,034 - anthropic._base_client - INFO - [_base_client.py:1088] - Retrying request to /v1/messages in 60.000000 seconds
+2025-01-02 15:02:16,049 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 429 Too Many Requests"
+2025-01-02 15:02:16,050 - anthropic._base_client - INFO - [_base_client.py:1088] - Retrying request to /v1/messages in 60.000000 seconds
+2025-01-02 15:02:16,084 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 429 Too Many Requests"
+2025-01-02 15:02:16,084 - anthropic._base_client - INFO - [_base_client.py:1088] - Retrying request to /v1/messages in 60.000000 seconds
+2025-01-02 15:02:16,157 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 429 Too Many Requests"
+2025-01-02 15:02:16,157 - anthropic._base_client - INFO - [_base_client.py:1088] - Retrying request to /v1/messages in 60.000000 seconds
+2025-01-02 15:02:23,128 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:05:23,065 - __main__ - INFO - [body4.py:311] - Reading PDF...
+2025-01-02 15:05:23,992 - __main__ - INFO - [body4.py:320] - Cleaning and formatting text for audio...
+2025-01-02 15:05:23,993 - __main__ - INFO - [body4.py:272] - Processing 23 sections...
+2025-01-02 15:05:23,993 - __main__ - ERROR - [body4.py:289] - Section 0 processing failed: name 'time' is not defined
+2025-01-02 15:05:23,993 - __main__ - ERROR - [body4.py:289] - Section 1 processing failed: name 'time' is not defined
+2025-01-02 15:05:23,993 - __main__ - ERROR - [body4.py:289] - Section 2 processing failed: name 'time' is not defined
+2025-01-02 15:05:23,993 - __main__ - INFO - [body4.py:278] - Section 3 too small, skipping
+2025-01-02 15:05:23,993 - __main__ - ERROR - [body4.py:289] - Section 4 processing failed: name 'time' is not defined
+2025-01-02 15:05:23,993 - __main__ - ERROR - [body4.py:289] - Section 5 processing failed: name 'time' is not defined
+2025-01-02 15:05:23,993 - __main__ - ERROR - [body4.py:289] - Section 6 processing failed: name 'time' is not defined
+2025-01-02 15:05:23,993 - __main__ - ERROR - [body4.py:289] - Section 7 processing failed: name 'time' is not defined
+2025-01-02 15:05:23,993 - __main__ - ERROR - [body4.py:289] - Section 8 processing failed: name 'time' is not defined
+2025-01-02 15:05:23,993 - __main__ - ERROR - [body4.py:289] - Section 9 processing failed: name 'time' is not defined
+2025-01-02 15:05:23,993 - __main__ - ERROR - [body4.py:289] - Section 10 processing failed: name 'time' is not defined
+2025-01-02 15:05:23,993 - __main__ - ERROR - [body4.py:289] - Section 11 processing failed: name 'time' is not defined
+2025-01-02 15:05:23,993 - __main__ - ERROR - [body4.py:289] - Section 12 processing failed: name 'time' is not defined
+2025-01-02 15:05:23,993 - __main__ - ERROR - [body4.py:289] - Section 13 processing failed: name 'time' is not defined
+2025-01-02 15:05:23,993 - __main__ - ERROR - [body4.py:289] - Section 14 processing failed: name 'time' is not defined
+2025-01-02 15:05:23,993 - __main__ - ERROR - [body4.py:289] - Section 15 processing failed: name 'time' is not defined
+2025-01-02 15:05:23,993 - __main__ - ERROR - [body4.py:289] - Section 16 processing failed: name 'time' is not defined
+2025-01-02 15:05:23,993 - __main__ - ERROR - [body4.py:289] - Section 17 processing failed: name 'time' is not defined
+2025-01-02 15:05:23,993 - __main__ - ERROR - [body4.py:289] - Section 18 processing failed: name 'time' is not defined
+2025-01-02 15:05:23,993 - __main__ - ERROR - [body4.py:289] - Section 19 processing failed: name 'time' is not defined
+2025-01-02 15:05:23,993 - __main__ - ERROR - [body4.py:289] - Section 20 processing failed: name 'time' is not defined
+2025-01-02 15:05:23,993 - __main__ - ERROR - [body4.py:289] - Section 21 processing failed: name 'time' is not defined
+2025-01-02 15:05:23,993 - __main__ - ERROR - [body4.py:289] - Section 22 processing failed: name 'time' is not defined
+2025-01-02 15:05:23,993 - __main__ - INFO - [body4.py:326] - Audio-ready text saved to: figs/paper.txt
+2025-01-02 15:05:34,636 - __main__ - INFO - [body4.py:312] - Reading PDF...
+2025-01-02 15:05:35,565 - __main__ - INFO - [body4.py:321] - Cleaning and formatting text for audio...
+2025-01-02 15:05:35,565 - __main__ - INFO - [body4.py:273] - Processing 23 sections...
+2025-01-02 15:05:45,843 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:05:59,394 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:06:07,341 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:06:07,342 - __main__ - INFO - [body4.py:279] - Section 3 too small, skipping
+2025-01-02 15:06:12,303 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:06:21,520 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:06:30,768 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:06:34,222 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:06:46,688 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:07:10,161 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:07:26,191 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 529 "
+2025-01-02 15:07:26,192 - anthropic._base_client - INFO - [_base_client.py:1088] - Retrying request to /v1/messages in 0.428896 seconds
+2025-01-02 15:07:31,552 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:07:44,460 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:07:53,239 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:08:03,872 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:08:12,800 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:08:24,970 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:08:31,703 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:08:35,396 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:08:45,804 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:09:05,773 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:09:18,471 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:09:29,018 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:09:37,460 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:09:37,461 - __main__ - ERROR - [body4.py:296] - Error in text processing: sequence item 0: expected str instance, list found
+2025-01-02 15:09:37,462 - __main__ - INFO - [body4.py:327] - Audio-ready text saved to: figs/paper.txt
+2025-01-02 15:19:07,037 - __main__ - INFO - [body4.py:312] - Reading PDF...
+2025-01-02 15:19:07,969 - __main__ - INFO - [body4.py:321] - Cleaning and formatting text for audio...
+2025-01-02 15:19:07,970 - __main__ - INFO - [body4.py:273] - Processing 23 sections...
+2025-01-02 15:19:20,310 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:19:32,699 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:19:39,440 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:19:39,440 - __main__ - INFO - [body4.py:279] - Section 3 too small, skipping
+2025-01-02 15:19:43,453 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:19:56,333 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:20:05,544 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:20:09,562 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:20:17,019 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:20:33,764 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:20:39,771 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:20:47,023 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:20:56,750 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:21:07,704 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:21:17,026 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:21:35,144 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:21:42,013 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:21:46,177 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:21:56,146 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:22:08,283 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:22:17,282 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:22:27,785 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:22:32,494 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:22:32,495 - __main__ - ERROR - [body4.py:296] - Error in text processing: sequence item 0: expected str instance, list found
+2025-01-02 15:22:32,495 - __main__ - INFO - [body4.py:327] - Audio-ready text saved to: figs/paper.txt
+2025-01-02 15:29:43,623 - __main__ - INFO - [body4.py:312] - Reading PDF...
+2025-01-02 15:29:44,545 - __main__ - INFO - [body4.py:321] - Cleaning and formatting text for audio...
+2025-01-02 15:29:44,545 - __main__ - INFO - [body4.py:273] - Processing 23 sections...
+2025-01-02 15:29:58,963 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:30:12,790 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:30:19,398 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:30:19,399 - __main__ - INFO - [body4.py:279] - Section 3 too small, skipping
+2025-01-02 15:30:24,574 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:30:39,667 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:30:48,528 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:30:53,695 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:31:00,206 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:31:18,556 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:31:24,981 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:31:33,683 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:31:41,065 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:31:51,510 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:32:07,224 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:32:20,598 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:32:25,071 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:32:28,745 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:32:38,190 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:32:52,513 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:32:58,993 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:33:10,146 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:33:17,861 - httpx - INFO - [_client.py:1025] - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-02 15:33:17,862 - __main__ - ERROR - [body4.py:296] - Error in text processing: sequence item 0: expected str instance, list found
+2025-01-02 15:33:17,862 - __main__ - INFO - [body4.py:327] - Audio-ready text saved to: figs/paper.txt

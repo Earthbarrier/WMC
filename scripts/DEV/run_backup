@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# Exit on error
+set -e
+
+# Get figures
+python gui.py figs/paper.pdf || { echo "Error extracting figures"; exit 1; }
+
+# Describe figures
+./descon.sh figs/paper.pdf || { echo "Error in figure description"; exit 1; }
+
+# Clean body
+python body.py figs/paper.pdf || { echo "Error cleaning body"; exit 1; }
+
+# Intersperse descriptions
+python intersperse.py figs/paper.txt figs/ figs/final.txt || { echo "Error interspercing"; exit 1; }
+
+# Generate audio
+python script.py figs/final.txt || { echo "Error generating audio"; exit 1; }
+
+# Stitch audio
+./stitch.sh || { echo "Error stitching audio"; exit 1; }
+
+echo "Processing completed successfully"
